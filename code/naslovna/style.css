@@ -1,0 +1,476 @@
+.naslovna-desktop {
+  background-color: #ffebf2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.naslovna-desktop .div {
+  background-color: #ffebf2;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.naslovna-desktop .header {
+  position: fixed;
+  width: 1440px;
+  height: 103px;
+  top:0;
+  background-color: transparent;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: transparent;
+  width: 100%;
+}
+
+.naslovna-desktop .NAVIAGTION {
+  position: fixed;
+  width: 1440px;
+  height: 80px;
+  top: 33px;
+  
+  overflow: hidden;
+  width: 100%;
+}
+
+.naslovna-desktop .overlap-group {
+  position: relative;
+  width: 1440px;
+  height: 67px;
+  top: 2px;
+  left: -6px;
+}
+
+.naslovna-desktop .NAV {
+  position: absolute;
+  width: 1446px;
+  height: 67px;
+  top: 0;
+  left: 0;
+  background-color: #f1b0ce;
+}
+
+.naslovna-desktop .explore {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 355px;
+  text-decoration: none;
+}
+
+.naslovna-desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Jomolhari-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.naslovna-desktop .tips {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 8px;
+  left: 449px;
+  text-decoration: none;
+}
+
+.naslovna-desktop .products {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 6px;
+  left: 547px;
+  text-decoration: none;
+}
+
+.naslovna-desktop .contatct {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 5px;
+  left: 779px;
+  text-decoration: none;
+}
+
+.naslovna-desktop .LOGO {
+  width: 69px;
+  height: 65px;
+  left: 694px;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+.naslovna-desktop .info {
+  position: absolute;
+  width: 1437px;
+  height: 33px;
+  top: 0;
+  left: 0;
+  background-color: #f9e1e1;
+}
+
+.naslovna-desktop .text-wrapper-2 {
+  position: absolute;
+  width: 282px;
+  top: -1px;
+  left: 625px;
+  font-family: "Jomolhari-Regular", Helvetica;
+  font-weight: 400;
+  color: #f1b0ce;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.naslovna-desktop .log-reg {
+  position: relative;
+  width: 110px;
+  height: 15px;
+  top: 7px;
+  left: 1306px;
+}
+
+.naslovna-desktop .frame {
+  padding: 10px 10px 10px 9px;
+  left: 0;
+  background-color: #ffffff;
+  display: flex;
+  width: 50px;
+  height: 3px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  top: 0;
+}
+
+.naslovna-desktop .text-wrapper-3 {
+  position: relative;
+  margin-top: -10px;
+  margin-bottom: -8px;
+  font-family: "Jomolhari-Regular", Helvetica;
+  font-weight: 400;
+  color: #8d0b4b;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.naslovna-desktop .div-wrapper {
+  padding: 10px;
+  left: 60px;
+  background-color: #8d0b4b;
+  display: flex;
+  width: 50px;
+  height: 3px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.naslovna-desktop .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -10px;
+  margin-bottom: -8px;
+  margin-left: -6.5px;
+  margin-right: -6.5px;
+  font-family: "Jomolhari-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.naslovna-desktop .body {
+  position: absolute;
+  width: 1440px;
+  height: 791px;
+  top: 102px;
+  left: 0;
+  background-color: #f9e1e1;
+}
+
+.naslovna-desktop .slike {
+  position: absolute;
+  width: 1440px;
+  height: 277px;
+  left: 0;
+}
+
+.naslovna-desktop .image {
+  width: 254px;
+  height: 273px;
+  top: 2px;
+  left: 948px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.naslovna-desktop .imege {
+  position: absolute;
+  width: 229px;
+  height: 273px;
+  top: 4px;
+  left: 1208px;
+  object-fit: cover;
+}
+
+.naslovna-desktop .img {
+  width: 302px;
+  height: 273px;
+  top: 2px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.naslovna-desktop .image-2 {
+  width: 322px;
+  height: 274px;
+  top: 1px;
+  left: 308px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.naslovna-desktop .image-3 {
+  width: 306px;
+  height: 275px;
+  top: 2px;
+  left: 636px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.naslovna-desktop .select {
+  position: absolute;
+  width: 1437px;
+  height: 386px;
+  top: 285px;
+  left: 0;
+}
+
+.naslovna-desktop .overlap-group-2 {
+  position: relative;
+  height: 387px;
+  top: -1px;
+}
+
+.naslovna-desktop .button-container {
+  position: absolute;
+  width: 1437px;
+  height: 383px;
+  top: 4px;
+  left: 0;
+  background-color: #f9e1e1;
+}
+
+.naslovna-desktop .acne {
+  display: flex;
+  width: 360px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 104px;
+  left: 218px;
+  background-color: #f1b0ce;
+}
+
+.naslovna-desktop .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Jomolhari-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.naslovna-desktop .wrinkles {
+  display: flex;
+  width: 360px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 251px;
+  left: 218px;
+  background-color: #f1b0ce;
+}
+
+.naslovna-desktop .oily-skin {
+  display: flex;
+  width: 360px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 104px;
+  left: 866px;
+  background-color: #f1b0ce;
+}
+
+.naslovna-desktop .dry-skin {
+  display: flex;
+  width: 360px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 258px;
+  left: 866px;
+  background-color: #f1b0ce;
+}
+
+.naslovna-desktop .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 528px;
+  font-family: "Jomolhari-Regular", Helvetica;
+  font-weight: 400;
+  color: #f971b4;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.naslovna-desktop .footer {
+  position: absolute;
+  width: 1437px;
+  height: 115px;
+  top: 909px;
+  left: 5px;
+  background-color: #f9e1e1;
+}
+
+.naslovna-desktop .p {
+  position: absolute;
+  width: 617px;
+  top: 1px;
+  left: 411px;
+  font-family: "Karla-Regular", Helvetica;
+  font-weight: 400;
+  color: #d991b5;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.naslovna-desktop .overlap {
+  position: absolute;
+  width: 92px;
+  height: 97px;
+  top: 2px;
+  left: 106px;
+}
+
+.naslovna-desktop .instagram-tiktok {
+  position: absolute;
+  width: 92px;
+  top: 34px;
+  left: 0;
+  font-family: "Jomolhari-Regular", Helvetica;
+  font-weight: 400;
+  color: #8d0b4b;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.naslovna-desktop .logo {
+  width: 39px;
+  height: 35px;
+  left: 25px;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+.naslovna-desktop .text-wrapper-7 {
+  position: absolute;
+  top: 64px;
+  left: 655px;
+  font-family: "Jomolhari-Regular", Helvetica;
+  font-weight: 400;
+  color: #d991b5;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+@media (max-width: 768px) {
+
+  .naslovna-desktop .div {
+    width: 67.368421%; 
+  }
+  
+  .naslovna-desktop .header {
+    width: 67.368421%;
+  }
+  
+  .naslovna-desktop .NAVIAGTION {
+    width: 67.368421%;
+  }
+  
+  .naslovna-desktop .overlap-group {
+    width: 67.368421%;
+  }
+  
+  .naslovna-desktop .NAV {
+    width: 67.368421%;
+  }
+  
+  .naslovna-desktop .explore {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    left: 355px;
+    text-decoration: none;
+  }
+
+}
+

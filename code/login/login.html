@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="info">
+                <div class="title">SKIN PROTECT</div>
+                <div class="log-reg">
+                    <div class="log"><a class="login" href="../login/login.html">LOGIN</a></div>
+                    <div class="reg"><a class="register" href="../login/reg.html">REGISTER</a></div>
+                </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li> <a class="logo-link" href="../naslovna/naslovna.html"><img class="logo"
+                                src="../../ASSETS/logo.jpg"> </li></a>
+                    <li><a href="#news">SAVJETI</a></li>
+                    <li><a href="#contact">PROIZVODI</a></li>
+
+                    <li><a href="">KONTAKTIRAJTE NAS</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="container-login">
+            <div class="main">
+             
+                <form id="form_id" method="post" name="myform">
+                    <label>User Name :</label>
+                    <input type="text" name="username" id="username" />
+                    <label>Password :</label>
+                    <input type="password" name="password" id="password" />
+                    <input type="button" value="Login" id="submit" onclick="login()" />
+                </form>
+                
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="social">
+                    <img class="logo-footer" src="../../ASSETS/logo.jpg">
+                    <div class="insts"><a class="ig" href="https://www.instagram.com/?hl=hr">Instagram</a></div>
+                    <div class="tiktok"><a class="tt" href="https://www.tiktok.com/en/">TikTok</a></div>
+                </div>
+                <div class="txt">
+                    <div class="poruka">“Glowing skin is always in.”</div>
+                    <div class="sp">&copy;2023 Skin protect</div>
+                </div>
+            </div>
+        </footer>
+        <script src="login.js"></script>
+    </div>
+
+</body>
+
+</html>
